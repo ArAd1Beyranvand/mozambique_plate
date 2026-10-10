@@ -1,0 +1,24 @@
+name: mozambique_plate
+description: "Mozambique's licence plates for the plate_core library — the 2011 series and the pre-2011 plates, with their themes, alphabets and advisory validators."
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plate_core: ^0.11.5
+  plate_alphabet: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/icons/emblem_of_mozambique.png
